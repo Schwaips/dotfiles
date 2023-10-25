@@ -4,3 +4,59 @@ alias speedtest="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/m
 
 # Quickly serve the current directory as HTTP
 alias serve='ruby -run -e httpd . -p 8000' # Or python -m SimpleHTTPServer :)
+
+
+# Get External IP / Internet Speed
+alias myip="curl https://ipinfo.io/json" # or /ip for plain-text ip
+alias speedtest="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -"
+
+
+alias cdconfig="cd ~/code/Schwaips/dotfiles"
+# Quickly serve the current directory as HTTP
+alias serve='ruby -run -e httpd . -p 8000' # Or python -m SimpleHTTPServer :)
+
+alias ip="curl ipinfo.io/ip"
+alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
+alias speedtest="wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip"
+
+alias codealiases="code ~/.aliases"
+alias rc="rails c"
+alias code="code ."
+alias cdgoee="cd ~/code/Schwaips/drakkar/go-epargne-entreprise"
+alias codegoee="code ~/code/Schwaips/drakkar/go-epargne-entreprise"
+alias cdplayse="cd ~/code/Schwaips/drakkar/playse"
+alias cdkinship="cd ~/code/Schwaips/drakkar/kinship"
+alias cdigere="cd ~/code/Schwaips/drakkar/Igere"
+alias cddashboard="cd ~/code/Schwaips/drakkar/Igere/dashboard"
+alias cdcopro="cd ~/code/Schwaips/drakkar/Igere/copro"
+alias cdvapohm="cd ~/code/Schwaips/drakkar/vapohm_transfert"
+alias codeplayse="code ~/code/Schwaips/drakkar/playse"
+alias codevapohm="code ~/code/Schwaips/drakkar/vapohm_transfert"
+# alias cdsolike="cd ~/code/Schwaips/drakkar/so_like"
+# alias codesolike="code ~/code/Schwaips/drakkar/so_like"
+alias killpg="rm /usr/local/var/postgres/postmaster.pid && brew services restart postgresql"
+
+# Open overmind with Procfile.dev
+# alias ovdev='overmind s -f Procfile.dev'
+# alias ovweb='overmind connect web'
+# alias ovwebrs='overmind restart web'
+# alias killov="rm -rf ./.overmind.sock"
+
+# Quickly serve the current directory as HTTP
+alias serve='ruby -run -e httpd . -p 8000'  # Or python -m SimpleHTTPServer :)
+
+alias igere='cd ~/code/Schwaips/Igere'
+
+# Ouvrir un fichier / dossier avec VSCode
+alias ct='code .'
+alias aliases='code ~/code/Schwaips/dotfiles/aliases'
+alias cddotfiles='cd ~/code/Schwaips/dotfiles'
+# Lancer un serveur précis depuis n'importe où
+alias devback='cd ~/code/Schwaips/drakkar/Igere/backend && yarn develop'
+alias devdash='cd ~/code/Schwaips/drakkar/Igere/dashboard && yarn dev -p 3001'
+alias devcopro='cd ~/code/Schwaips/drakkar/Igere/copro && yarn dev'
+alias devfile='cd ~/code/Schwaips/drakkar/Igere/file-server && yarn dev'
+alias devl="cd ~/code/Schwaips/drakkar && bash dev-igere.sh"
+alias devivan="cd ~/code/Schwaips/drakkar && bash dev-ivan.sh"
+alias cdivan="cd ~/code/Schwaips/drakkar/IvanSkybyk"
+alias cdlewagon="cd ~/code/Schwaips/lewagon"
