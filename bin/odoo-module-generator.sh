@@ -9,6 +9,10 @@ function usage() {
   echo "Usage: $0 [MODULE_NAME]"
 }
 
+function done() {
+  echo "Module $MODULE_NAME created"
+}
+
 if [ "$1" == "-h" ] || [ "$1" == "--help" ]
 then
   usage
@@ -54,8 +58,17 @@ touch $MODULE_NAME/__init__.py
 # Création du dossier models et génération du fichier __init__.py
 mkdir $MODULE_NAME/models
 touch $MODULE_NAME/models/__init__.py
+mkdir $MODULE_NAME/controllers
+touch $MODULE_NAME/controllers/__init__.py
 
 # Création du dossier static et génération du fichier __init__.py
 mkdir $MODULE_NAME/static
-touch $MODULE_NAME/static/src/js
-touch $MODULE_NAME/static/src/views
+mkdir $MODULE_NAME/static/src
+mkdir $MODULE_NAME/static/src/js
+touch $MODULE_NAME/static/src/js/.gitkeep
+mkdir $MODULE_NAME/static/src/xml
+touch $MODULE_NAME/static/src/xml/.gitkeep
+mkdir $MODULE_NAME/static/src/scss
+touch $MODULE_NAME/static/src/scss/.gitkeep
+
+echo "Module $MODULE_NAME created"
