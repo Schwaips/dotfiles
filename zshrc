@@ -64,3 +64,5 @@ export LDFLAGS="-L/opt/homebrew/opt/postgresql@15/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/postgresql@15/include"
 # export PATH=$PATH:/opt/homebrew/bin/pg_config
 # export PATH=$PATH:/opt/homebrew/bin/openssl
+
+export PATH="/Users/charliebertrand/code/Schwaips/dotfiles/bin/odoo-module-generator:$PATH"
