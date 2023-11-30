@@ -6,6 +6,8 @@ AUTHOR_NAME="Charlie Bertrand"
 WEBSITE="https://www.drakkar.io/"
 
 function usage() {
+  echo " ERR -- Veuillez spécifier le nom du module à créer"
+  echo "Exemple createodoomodule my_module"
   echo "Usage: $0 [MODULE_NAME]"
 }
 
