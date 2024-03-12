@@ -24,8 +24,8 @@ export PATH="${HOME}/.rbenv/bin:${PATH}" # Needed for Linux/WSL
 type -a rbenv > /dev/null && eval "$(rbenv init -)"
 
 # Load pyenv (To manage your Python versions)
-export PATH="${HOME}/.pyenv/bin:${PATH}" # Needed for Linux/WSL
-type -a pyenv > /dev/null && eval "$(pyenv init -)" && eval "$(pyenv virtualenv-init -)"
+# export PATH="${HOME}/.pyenv/bin:${PATH}" # Needed for Linux/WSL
+# type -a pyenv > /dev/null && eval "$(pyenv init -)" && eval "$(pyenv virtualenv-init -)"
 
 # Load nvm if installed (To manage your Node versions)
 export NVM_DIR="$HOME/.nvm"
@@ -66,3 +66,8 @@ export CPPFLAGS="-I/opt/homebrew/opt/postgresql@15/include"
 # export PATH=$PATH:/opt/homebrew/bin/openssl
 
 export PATH="/Users/charliebertrand/code/Schwaips/dotfiles/bin/odoo-module-generator:$PATH"
+
+# Pyenv
+export export PYENV_ROOT="$HOME/.pyenv"
+export PATH="${HOME}/.pyenv/bin:${PATH}"
+eval "$(pyenv init -)"

@@ -1,0 +1,1 @@
+open -a "Warp.app" --args new-pane

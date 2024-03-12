@@ -22,7 +22,7 @@ then
 fi
 
 
-tmux send-keys "cd ~/code/Schwaips/drakkar/odoo_folder/odoo && ./odoo-bin --addons-path="addons,../enterprise,../VillaVerde/Villaverde_Odoo,../VillaVerde/kzm_odoo" -d villaverde -u $MODULE_NAME --dev xml" C-m
+tmux send-keys "cd ~/code/Schwaips/drakkar/odoo_folder/odoo && ./odoo-bin --addons-path="addons,../enterprise,../VillaVerde/Villaverde_Odoo,../VillaVerde/kzm_odoo,../OCA/account-financial-tools,../OCA/brand,../OCA/partner-contact,../OCA/queue,../OCA/reporting-engine,../OCA/server-tools,../OCA/server-ux,../OCA/web" -d villaverde -u $MODULE_NAME --dev xml" C-m
 tmux split-window -h
 tmux send-keys "cd ~/code/Schwaips/drakkar/odoo_folder" C-m
 tmux split-window -v
