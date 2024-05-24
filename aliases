@@ -20,6 +20,7 @@ alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
 alias speedtest="wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip"
 
 alias codealiases="code ~/.aliases"
+alias cdaliases="cd ~/code/Schwaips/dotfiles/aliases"
 alias rc="rails c"
 alias code="code ."
 alias cdgoee="cd ~/code/Schwaips/drakkar/go-epargne-entreprise"
@@ -31,6 +32,8 @@ alias cddashboard="cd ~/code/Schwaips/drakkar/Igere/dashboard"
 alias cdcopro="cd ~/code/Schwaips/drakkar/Igere/copro"
 alias cdvapohm="cd ~/code/Schwaips/drakkar/vapohm_transfert"
 alias codeplayse="code ~/code/Schwaips/drakkar/playse"
+alias cdoxeva="cd ~/code/Schwaips/drakkar/oxeva"
+alias codeoxeva="code ~/code/Schwaips/drakkar/oxeva"
 alias codevapohm="code ~/code/Schwaips/drakkar/vapohm_transfert"
 alias configwarp="cd ~/.warp/launch_configurations/ && code ."
 # alias cdsolike="cd ~/code/Schwaips/drakkar/so_like"
@@ -51,7 +54,6 @@ alias igere='cd ~/code/Schwaips/Igere'
 # Ouvrir un fichier / dossier avec VSCode
 alias ct='code .'
 alias aliases='code ~/code/Schwaips/dotfiles/aliases'
-alias cddotfiles='cd ~/code/Schwaips/dotfiles'
 # Lancer un serveur précis depuis n'importe où
 alias devback='cd ~/code/Schwaips/drakkar/Igere/backend && yarn develop'
 alias devdash='cd ~/code/Schwaips/drakkar/Igere/dashboard && yarn dev -p 3001'
