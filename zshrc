@@ -68,6 +68,9 @@ export CPPFLAGS="-I/opt/homebrew/opt/postgresql@15/include"
 
 export PATH="/Users/charliebertrand/code/Schwaips/dotfiles/bin/odoo-module-generator:$PATH"
 
+# java 17
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
+
 # Pyenv
 export export PYENV_ROOT="$HOME/.pyenv"
 export PATH="${HOME}/.pyenv/bin:${PATH}"
