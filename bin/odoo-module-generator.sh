@@ -62,6 +62,7 @@ mkdir $MODULE_NAME/models
 touch $MODULE_NAME/models/__init__.py
 mkdir $MODULE_NAME/controllers
 touch $MODULE_NAME/controllers/__init__.py
+mkdir $MODULE_NAME/views
 
 # Création du dossier static et génération du fichier __init__.py
 mkdir $MODULE_NAME/static
