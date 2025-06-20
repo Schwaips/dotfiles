@@ -67,7 +67,9 @@ mkdir $MODULE_NAME/views
 # Création du dossier static et génération du fichier __init__.py
 mkdir $MODULE_NAME/static
 mkdir $MODULE_NAME/static/description
-cp ./icon.png $MODULE_NAME/static/description/
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cp "$SCRIPT_DIR/icon.png" $MODULE_NAME/static/description/
+# cp ./icon.png $MODULE_NAME/static/description/
 
 mkdir $MODULE_NAME/static/src
 mkdir $MODULE_NAME/static/src/js
